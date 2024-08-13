@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Georgia', serif;
+    font-family: 'Crimson Text', serif;
     color: #000;
     background-color: #fff;
 }
@@ -15,9 +15,14 @@ header {
 }
 
 h1 {
-    font-size: 48px;
-    margin: 0;
+    font-family: 'Crimson Text', serif; /* Font family */
+    font-size: 72px; /* Size of the text */
+    font-weight: 700; /* Font weight (bold) */
+    color: #000000; /* Text color */
+    text-align: left; /* Center align the text */
+    margin: 20px 0; /* Space around the text */
 }
+
 
 nav ul {
     list-style: none;
