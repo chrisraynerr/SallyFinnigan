@@ -18,8 +18,26 @@
         </nav>
     </header>
     <div class="slideshow-container">
-        <img class="slideshow" id="slideshow" src="https://raw.githubusercontent.com/chrisraynerr/SallyFinnigan/main/KINGDOM/AJP_Burberry-SS_03.jpg">
+        <img class="slideshow" id="slideshow" src="https://raw.githubusercontent.com/chrisraynerr/SallyFinnigan/main/KINGDOM/AJP_Burberry-SS_03.jpg" alt="Fashion Show">
     </div>
-    <script src="script.js"></script>
+    
+    <!-- Inline JavaScript for testing -->
+    <script>
+        const images = [
+            "https://raw.githubusercontent.com/chrisraynerr/SallyFinnigan/main/KINGDOM/AJP_Burberry-SS_03.jpg",
+            "https://raw.githubusercontent.com/chrisraynerr/SallyFinnigan/main/KINGDOM/AJP_Burberry-SS_02.jpg",
+            "https://raw.githubusercontent.com/chrisraynerr/SallyFinnigan/main/KINGDOM/AJP_Burberry-SS_01.jpg"
+        ];
+
+        let currentIndex = 0;
+        const slideshowElement = document.getElementById('slideshow');
+
+        function changeImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            slideshowElement.src = images[currentIndex];
+        }
+
+        setInterval(changeImage, 10000); // Change image every 10 seconds
+    </script>
 </body>
 </html>
