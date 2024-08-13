@@ -1,9 +1,9 @@
 const images = [
     "KINGDOM/AJP_Burberry-SS_03.jpg",
     "KINGDOM/AJP_Burberry-SS_04.jpg",
-    "https://github.com/chrisraynerr/SallyFinnigan/tree/main/KINGDOM/AJP_Burberry-SS_05.jpg"
-    "https://github.com/chrisraynerr/SallyFinnigan/tree/main/KINGDOM/AJP_Burberry-SS_06.jpg"
-    "https://github.com/chrisraynerr/SallyFinnigan/tree/main/KINGDOM/AJP_Burberry-SS_08.jpg"
+    "KINGDOM/AJP_Burberry-SS_05.jpg"
+    "KINGDOM/AJP_Burberry-SS_06.jpg"
+    "KINGDOM/AJP_Burberry-SS_08.jpg"
     // Add more images if needed
 ];
 
