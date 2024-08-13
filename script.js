@@ -1,7 +1,9 @@
 const images = [
-    "https://github.com/chrisraynerr/SallyFinnigan/raw/main/KINGDOM/1.jpg",
-    "https://github.com/chrisraynerr/SallyFinnigan/raw/main/KINGDOM/2.jpg",
-    "https://github.com/chrisraynerr/SallyFinnigan/raw/main/KINGDOM/3.jpg"
+    "https://github.com/chrisraynerr/SallyFinnigan/blob/main/KINGDOM/AJP_Burberry-SS_03.jpg",
+    "https://github.com/chrisraynerr/SallyFinnigan/blob/main/KINGDOM/AJP_Burberry-SS_04.jpg",
+    "https://github.com/chrisraynerr/SallyFinnigan/blob/main/KINGDOM/AJP_Burberry-SS_05.jpg"
+    "https://github.com/chrisraynerr/SallyFinnigan/blob/main/KINGDOM/AJP_Burberry-SS_06.jpg"
+    "https://github.com/chrisraynerr/SallyFinnigan/blob/main/KINGDOM/AJP_Burberry-SS_08.jpg"
     // Add more images if needed
 ];
 
